@@ -1,0 +1,14 @@
+.form-component {
+  font-size: $font-size-tertiary;
+  margin: $margin-secondary;
+  display: flex;
+  flex-direction: column;
+
+  span {
+    padding: $padding-primary;
+    color: $color-error;
+  }
+  input {
+    font-size: $font-size-tertiary;
+  }
+}

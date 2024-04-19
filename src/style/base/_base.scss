@@ -8,3 +8,6 @@ body::after {
   background-color: $background-color-primary;
   color: $color-secondary;
 }
+button {
+  @include button-base;
+}

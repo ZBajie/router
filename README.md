@@ -1,7 +1,11 @@
-# React router doom test
+# React router doom
 
 createBrowserRouter
 with layout page and error page.
+
+## redux
+
+## React hook forms
 
 # React + TypeScript + Vite
 

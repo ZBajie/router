@@ -1,8 +1,10 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import Home from "./pages/Home"
-import Contact from "./pages/Contact"
-import Layout from "./pages/Layout"
-import ErrorPage from "./pages/ErrorPage"
+import Home from "./pages/Home/Home"
+import Contact from "./pages/Contacts/Contact"
+import Layout from "./pages/Layout/Layout"
+import ErrorPage from "./pages/ErrorPage/ErrorPage"
+import Counter from "./components/Header/Counter/Counter"
+import FormComponent from "./pages/FormComponent/FormComponent"
 
 const router = createBrowserRouter([
   {
@@ -14,8 +16,16 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/Contact",
+        path: "/form",
+        element: <FormComponent />,
+      },
+      {
+        path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/counter",
+        element: <Counter />,
       },
     ],
   },
